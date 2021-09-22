@@ -902,7 +902,7 @@ while(s.hasNext()){
   * tokenize a Reader into tokens
   
 ```java
-StreamTokenizer tokenizer = new StreamTokenizer(new FileReader("example.txt));
+StreamTokenizer tokenizer = new StreamTokenizer(new FileReader("example.txt"));
 
 while(tokenizer.nextToken() != StreamTokenizer.TT_EOF){
   if(tokenizer.ttype == StreamTokenizer.TT_WORD){
