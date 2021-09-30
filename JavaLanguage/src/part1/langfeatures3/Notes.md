@@ -163,7 +163,7 @@ class Circle implements ConsoleReadable{
 - Format
   * `@Override`
   * `@SuppressWarnings("unchecked")`
-  * `@Author(name = "Denes Varga", date7"1/23/2014")`
+  * `@Author(name = "Gyula", date="1/23/2014")`
   
 - Where can be applied:
   * Declaration of class
@@ -175,9 +175,9 @@ class Circle implements ConsoleReadable{
 
 ### Most typical annotations in J2SE API
 
-* `@Deprecated` -  metodus kompatibilitasi okokbol van ott (a metodus)
+* `@Deprecated` 
 * `@Override`
-* `SuppressWarning` - 
+* `SuppressWarning`
 
 ```java
 @Product(name = "This is a book")
@@ -1035,7 +1035,7 @@ System.out.format("getRoot: %s%s", path.getRoot());
 Files.exists(path);
 Files.copy(source, target, REPLACE_EXISTING);
 Files.move(source, target, REPLACE_EXISTING);
-iles.delete(path);
+Files.delete(path);
 ```
 
 - Reading, writing and creating files
